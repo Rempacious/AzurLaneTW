@@ -21,6 +21,9 @@ for artifact in "${!artifacts[@]}"; do
     fi
 done
 
+git update-index --chmod=+x ./patch_perseus.sh
+
+
 chmod +x apkeep
 
 # TW Version 

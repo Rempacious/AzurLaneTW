@@ -21,7 +21,7 @@ for artifact in "${!artifacts[@]}"; do
     fi
 done
 
-git update-index --chmod=+x ./.github/scripts/check-generate.sh
+chmod +x apkeep
 
 # TW Version 
 # For bilibili version please check original repo by CapitalGrin
